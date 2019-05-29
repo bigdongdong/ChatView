@@ -1,11 +1,12 @@
 # ChatView
 自定义的聊天气泡View，内部可以添加子View
 
-### 截图预览（Screen Recrod）
-<img  width = "400" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/onclick.gif"></img>
-<img  width = "400" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/longclick.gif"></img>
-<img  width = "400" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen.jpg"></img>
-<img  width = "400" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen2.jpg"></img>
+# 截图预览（Screen Recrod）
+<img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo.jpg"></img></br>
+<img  width = "210" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/onclick.gif"></img>
+<img  width = "210" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/longclick.gif"></img>
+<img  width = "210" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen.jpg"></img>
+<img  width = "210" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen2.jpg"></img>
 
 ### 项目配置（Gradle Dependency）
 
