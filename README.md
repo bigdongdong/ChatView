@@ -2,7 +2,7 @@
 自定义的聊天气泡View，内部可以添加子View
 
 # 截图预览（Screen Recrod）
-<img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo.jpg"></img></br>
+<img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo0.jpg"></img></br>
 <img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo2.jpg"></img></br>
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/onclick.gif"></img>
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/longclick.gif"></img>
