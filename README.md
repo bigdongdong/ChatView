@@ -1,5 +1,5 @@
 # ChatView
-自定义的聊天气泡View，内部可以添加子View
+自定义的聊天气泡View，内部可以添加子View，可以附带边框，圆角
 
 # 截图预览（Screen Recrod）
 <img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo0.jpg"></img></br>
