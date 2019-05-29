@@ -31,11 +31,12 @@
         chat:arrow_up_distance = "10dp"
         chat:arrow_width = "5dp"
         chat:arrow_height = "12dp"
+        chat:stroke_width = "1px"
         chat:stroke_color = "#FFFFFF"
         chat:fill_color = "#FFFFFF"
         chat:press_stroke_color = "#50111111"
         chat:press_fill_color = "#50111111"
-        chat:stroke_width = "1px"
+        chat:conner_radius = "6dp"
         >
         <TextView
             android:textSize="16dp"
