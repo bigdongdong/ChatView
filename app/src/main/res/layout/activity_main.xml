@@ -26,16 +26,15 @@
         android:layout_marginRight="30dp"
 
         xmlns:chat="http://schemas.android.com/apk/res-auto"
+        chat:arrow_direction="left"
         chat:is_arrow_center="true"
         chat:arrow_up_distance = "10dp"
-        chat:arrow_direction="left"
         chat:arrow_width = "5dp"
         chat:arrow_height = "12dp"
         chat:stroke_color = "#FFFFFF"
         chat:fill_color = "#FFFFFF"
         chat:press_stroke_color = "#50111111"
         chat:press_fill_color = "#50111111"
-        chat:conner_radius = "6dp"
         chat:stroke_width = "1px"
         >
         <TextView
