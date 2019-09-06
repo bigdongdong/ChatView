@@ -119,23 +119,29 @@ public class ChatView extends ChatLayout {
         this.setBackground(getSelectorBackground());
     }
 
+    private StateListDrawable stalistDrawable ;
+    private ChatShape chatShape;
+
     /*设置点击特效*/
     public  StateListDrawable getSelectorBackground(){
         //初始化一个空对象
-        StateListDrawable stalistDrawable = new StateListDrawable();
+        if(stalistDrawable==null){
+            stalistDrawable = new StateListDrawable();
+        }
 
-        //获取对应的属性值 Android框架自带的属性 attr
-        ChatShape nomalShape = new ChatShape(arrowWidth,arrowHeight,isArrowCenter,strokeWidth,
-                arrowDirection,arrowUpDistance,connerRadius,strokeColor,fillColor);
-        ChatShape pressShape = new ChatShape(arrowWidth,arrowHeight,isArrowCenter,strokeWidth,
+        /**
+         * 两种背景顺序不要反了，普通的在最后
+         */
+
+        /*按压时显示的背景*/
+        chatShape = new ChatShape(arrowWidth,arrowHeight,isArrowCenter,strokeWidth,
                 arrowDirection,arrowUpDistance,connerRadius,pressStrokeColor,pressFillColor);
+        stalistDrawable.addState(new int []{android.R.attr.state_pressed}, new ShapeDrawable(chatShape));
 
-
-        int pressed = android.R.attr.state_pressed;
-
-        stalistDrawable.addState(new int []{pressed}, new ShapeDrawable(pressShape));
         /*没有任何状态时显示的背景*/
-        stalistDrawable.addState(new int []{},  new ShapeDrawable(nomalShape));
+        chatShape = new ChatShape(arrowWidth,arrowHeight,isArrowCenter,strokeWidth,
+                                arrowDirection,arrowUpDistance,connerRadius,strokeColor,fillColor);
+        stalistDrawable.addState(new int []{},  new ShapeDrawable(chatShape));
 
         return stalistDrawable;
     }
