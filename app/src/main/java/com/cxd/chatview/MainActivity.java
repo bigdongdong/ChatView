@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import com.cxd.chatview.moudle.ChatView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     ChatView firstView,thirdView ;

@@ -104,20 +104,14 @@ public class ChatView extends ChatLayout {
         arrowWidth = typedArray.getDimensionPixelSize(R.styleable.chat_arrow_width,15);
         arrowHeight = typedArray.getDimensionPixelSize(R.styleable.chat_arrow_height,30);
 
-    }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-    }
-
-    /*实际绘图方法，使用canvas*/
-    @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
+        /**
+         * 在这里绘制背景，在onDraw()中绘制会造成UI堵塞卡顿
+         */
 
         this.setBackground(getSelectorBackground());
     }
+
 
     private StateListDrawable stalistDrawable ;
     private ChatShape chatShape;
@@ -140,7 +134,7 @@ public class ChatView extends ChatLayout {
 
         /*没有任何状态时显示的背景*/
         chatShape = new ChatShape(arrowWidth,arrowHeight,isArrowCenter,strokeWidth,
-                                arrowDirection,arrowUpDistance,connerRadius,strokeColor,fillColor);
+                arrowDirection,arrowUpDistance,connerRadius,strokeColor,fillColor);
         stalistDrawable.addState(new int []{},  new ShapeDrawable(chatShape));
 
         return stalistDrawable;

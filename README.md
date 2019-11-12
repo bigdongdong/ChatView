@@ -20,7 +20,7 @@
   }
   
   dependencies {
-	  implementation 'com.github.bigdongdong:ChatView:1.1' //添加依赖
+	  implementation 'com.github.bigdongdong:ChatView:1.2' //添加依赖
   }
 ```
 
