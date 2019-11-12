@@ -6,8 +6,10 @@
 <img  width = "450" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/simple_demo2.jpg"></img></br>
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/onclick.gif"></img>
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/longclick.gif"></img></br>
+<!--
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen.jpg"></img>
 <img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen2.jpg"></img>
+-->
 
 # 项目配置
 
